@@ -5,6 +5,11 @@ A Simple bash shell script to keep a series of migration logs for all changes ma
 
 This script requires the Perl based mysqldiff tool in order to work properly.
 
+mysqldiff
+---------
+http://search.cpan.org/dist/MySQL-Diff/bin/mysqldiff
+
+
 Usage
 -----
 
