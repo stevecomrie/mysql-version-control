@@ -7,7 +7,6 @@ DB="database_name"
 
 # change to where the script is stored
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-echo $DIR
 cd $DIR
 
 # make log directories

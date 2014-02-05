@@ -1,7 +1,7 @@
 mysql-version-control
 =====================
 
-A Simple bash shell script to keep a series of migration logs of all schema changes to a MySQL database
+A Simple bash shell script to keep a series of migration logs for all changes made to a MySQL database schema
 
 This script requires the Perl based mysqldiff tool in order to work properly.
 
@@ -18,7 +18,7 @@ The script will create two sub-directories.
 
 ./migrations which will hold a numbered series of schema updates required to move the database through each set of changes.
 
-Running the script when no changes have been made to the database scheme will result in no log or migration files being generated.
+Running the script when no changes have been made to the database schema will result in no log or migration files being generated.
 
 
 
